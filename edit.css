@@ -7,12 +7,15 @@ body {
 }
 #ul2 {
   float: right;
-  margin-top: -40px;
+  margin-top: -86px;
   margin-right: 37px;
 }
 
 #image1 {
-  width: 133px;
+  width: 150px;
+  margin-top: -14px;
+  margin-left: -12px;
+  background-color: #f9f9fa;
 }
 
 #a1 {
@@ -30,6 +33,7 @@ body {
 #d3 {
   margin-top: 120px;
   margin-left: 300px;
+  float: left;
 }
 
 #p1 {
@@ -39,20 +43,25 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 36%;
+  width: 110px;
+  margin-top: -10px;
 }
 
 #f1 {
   float: right;
+  margin-left: 969px;
+
   padding: 39px;
-  padding-bottom: 14px;
+  padding-bottom: 19px;
   padding-top: 30px;
   background-color: #ffffff;
-  margin-top: -240px;
-  margin-right: 245px;
+  margin-top: -310px;
+  margin-right: 175px;
+  margin-bottom: 35px;
   border: 1px solid #ddd0d0;
   padding-left: 29px;
-  padding-right: 29px;
+  padding-right: 29 px;
+  padding-top: 12px;
 }
 #h1 {
   text-align: center;
@@ -71,6 +80,7 @@ body {
   width: 280px;
   font-size: 14px;
   margin-top: 55px;
+  outline: #ffffff;
 }
 
 #hr1 {
@@ -97,12 +107,14 @@ body {
   color: #0f69ff;
 
   color: #0f69ff;
-  font-size: 16.2px;
+  font-size: 16.4px;
   text-decoration: azure;
+  margin-right: 5px;
 }
 
 #ip1 {
   margin-top: 25px;
+  margin-left: -5px;
 }
 
 #b2 {
@@ -153,9 +165,11 @@ body {
 
 #image3 {
   border-image: none;
+  background-color: #ffffff;
   align-self: center;
   float: left;
-  margin-left: 82px;
+  margin-left: 55px;
+  margin-top: -1.5px;
 }
 
 #p5 {
@@ -164,4 +178,17 @@ body {
   align-self: center;
   margin-right: 44px;
   margin-top: 5.9px;
+  text-decoration: none;
+}
+#pp {
+  margin-top: 360px;
+  text-align: center;
+
+  font-size: small;
+}
+#ap {
+  color: #0f69ff;
+}
+#at {
+  color: #0f69ff;
 }
