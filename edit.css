@@ -152,15 +152,15 @@ body {
   height: 40px;
   font-size: 19px;
 
-  border: 1.37px solid #010203;
+  border: 1.37px solid #bbc2ca;
   border-radius: 25px;
   margin-top: 0px;
   text-decoration: none;
 }
 
 #b3:hover {
+  border: 1 px solid #0f69ff;
   cursor: pointer;
-  opacity: 0.9;
 }
 
 #image3 {
@@ -191,4 +191,18 @@ body {
 }
 #at {
   color: #0f69ff;
+}
+
+@media (max-width: 700px) {
+  #image1 {
+    margin: 80px 40px;
+  }
+  #d3 {
+    font-size: 50px;
+    float: none;
+    text-align: center;
+  }
+  #f1 {
+    float: none;
+  }
 }
