@@ -193,26 +193,53 @@ body {
   color: #0f69ff;
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 800px) and (min-width: 200px) {
+  #ul2 {
+    font-size: 0px;
+  }
   #image1 {
-    margin: 80px 40px;
+    margin-left: 250px;
+    width: 0%;
   }
   #d1 {
-    width: 100%;
   }
   #d2 {
-    width: 100%;
   }
   #d3 {
     /* font-size: 50px; */
-
-    width: 100%;
+    font-size: 0px;
+    text-align: end;
   }
   #f1 {
+    width: 55%;
+    padding: 150px;
+    align-self: center;
+    margin-right: -90px;
+    margin-left: ;
+    text-align: center;
+  }
+
+  #divf {
     width: 100%;
+    margin-left: -90px;
+    margin-right: -240px;
+    size: 40%;
   }
 
   #main1 {
     flex-direction: column;
+  }
+
+  #a1 {
+    size: 0ch;
+  }
+  #p1 {
+    font-size: 0px;
+  }
+  #ap {
+    font-size: 0%;
+  }
+  #at {
+    font-size: 0%;
   }
 }
