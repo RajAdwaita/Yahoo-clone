@@ -193,16 +193,26 @@ body {
   color: #0f69ff;
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   #image1 {
     margin: 80px 40px;
   }
+  #d1 {
+    width: 100%;
+  }
+  #d2 {
+    width: 100%;
+  }
   #d3 {
-    font-size: 50px;
-    float: none;
-    text-align: center;
+    /* font-size: 50px; */
+
+    width: 100%;
   }
   #f1 {
-    float: none;
+    width: 100%;
+  }
+
+  #main1 {
+    flex-direction: column;
   }
 }
