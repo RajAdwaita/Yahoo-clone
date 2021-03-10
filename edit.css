@@ -193,7 +193,7 @@ body {
   color: #0f69ff;
 }
 
-@media screen and (max-width: 800px) and (min-width: 200px) {
+@media screen and (max-width: 1267px) and (min-width: 200px) {
   #ul2 {
     font-size: 0px;
   }
